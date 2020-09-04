@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* ----------------------- End of Reset ---------------------- */
 * {
     box-sizing: border-box;
     border: 1px solid grey;
@@ -73,7 +73,7 @@ p {
     margin: 0 auto;
     font-size: 1.6rem;
 }
-/* Start Header Styling Here*/
+/* -------------------------- Header Styling ------------------- */
 header {
     display: flex; 
     align-items: flex-end;
@@ -95,11 +95,13 @@ header nav a {
     color: black;
 }
 
-/* Backround image below header */
+/* --------------------- Transition Image Styling ----------------------- */
 .top_image {
     width: 100%;
     margin-bottom: 3%;
 }
+
+/* --------------------- Content Styling ---------------------------------*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -195,7 +197,7 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* ------------------------- Footer Styling --------------------- */
 footer {
     width: 100%;
     background: black;
@@ -215,16 +217,12 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Styling for About Page */
+/* -------------------- ABOUT PAGE ------------------------- */
 
 .container.about-page {
     width: 800px;
     margin: 0 auto;
     font-size: 1.6rem;
-}
-
-.about_top_image {
-    width: 100%; 
 }
 
 .about_blurb {
@@ -233,22 +231,23 @@ footer nav a {
 }
 
 .about_content {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     display: flex; 
     flex-flow: row wrap;
-    justify-content: space-between;
-    border-top: 2px dashed black;
+    justify-content: space-around;
+    border-top: 1px dashed black;
 }
 
 .unit {
-    width: 48%;
+    width: 47%;
     padding: 3% 0;
     margin-bottom: 4%;
-    border-bottom: 2px dashed black;
+    border-bottom: 1px dashed black;
 }
 
 .unit img {
+    margin-bottom: 2%;
     max-width: 100%;
     object-fit: contain;
 }
@@ -259,7 +258,7 @@ footer nav a {
 }
 
 .unit button {
-    padding: 2% 4%;
+    padding: 2% 6%;
     font-size: 1.6rem;
     background: white;
     border: 2px solid black; 
@@ -268,6 +267,6 @@ footer nav a {
 
 .about_bottom_content {
     width: 95%; 
-    margin: 0 auto 5%;
+    margin: 2% auto 5%;
 
 }
