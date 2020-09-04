@@ -49,7 +49,6 @@ table {
 /* ----------------------- End of Reset ---------------------- */
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
 }
 
 html, body {
