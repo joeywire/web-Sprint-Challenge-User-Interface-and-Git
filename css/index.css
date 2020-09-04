@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html, body {
@@ -213,4 +213,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Styling for About Page */
+
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.about_top_image {
+    width: 100%; 
+}
+
+.about_blurb {
+    width: 95%; 
+    margin: 3% auto;
+}
+
+.about_content {
+    width: 95%;
+    margin: 0 auto;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-top: 2px dashed black;
+}
+
+.unit {
+    width: 48%;
+    padding: 3% 0;
+    border-bottom: 2px dashed black;
+}
+
+.unit img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.unit p{
+    line-height: 1.25;
+    margin-bottom: 3%;
+}
+
+.unit button {
+    padding: 2% 4%;
+    font-size: 1.6rem;
+    background: white;
+    border: 2px solid black; 
+    border-radius: 10px;
 }
