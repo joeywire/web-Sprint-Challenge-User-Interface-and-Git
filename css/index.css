@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
 }
 
 html, body {
@@ -70,7 +71,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Start Header Styling Here*/
+header {
+    display: flex; 
+    align-items: flex-end;
+    margin: 3% 0;
+}
 
+.header_logo {
+    width: 25%;
+}
+
+header nav {
+    width: 74%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Backround image below header */
+.top_image {
+    width: 100%;
+    margin-bottom: 3%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
