@@ -244,6 +244,7 @@ footer nav a {
 .unit {
     width: 48%;
     padding: 3% 0;
+    margin-bottom: 4%;
     border-bottom: 2px dashed black;
 }
 
@@ -263,4 +264,10 @@ footer nav a {
     background: white;
     border: 2px solid black; 
     border-radius: 10px;
+}
+
+.about_bottom_content {
+    width: 95%; 
+    margin: 0 auto 5%;
+
 }
