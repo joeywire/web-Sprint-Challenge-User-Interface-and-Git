@@ -82,6 +82,7 @@ header {
 
 .header_logo {
     width: 25%;
+    flex-grow: 2;
 }
 
 header nav {
