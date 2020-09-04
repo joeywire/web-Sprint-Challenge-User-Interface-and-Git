@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,12 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,12 +71,13 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 /* Start Header Styling Here*/
 header {
     display: flex; 
     align-items: flex-end;
-    margin: 3% 0;
+    margin: 4% 0;
 }
 
 .header_logo {
@@ -131,13 +133,54 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* Coloring Boxes */
+.box.a {
+    background: teal;
+}
+
+.box.b {
+    background: gold;
+}
+
+.box.c {
+    background: cadetblue;
+}
+
+.box.d {
+    background: coral;
+}
+
+.box.e {
+    background: crimson;
+}
+
+.box.f {
+    background: forestgreen;
+}
+
+.box.g {
+    background: darkorchid;
+}
+
+.box.h {
+    background: hotpink;
+}
+
+.box.i {
+    background: indigo;
+}
+
+.box.j {
+    background: dodgerblue;
+}
+/* End Box Coloring  */
 
 .bottom-content {
     display: flex;
