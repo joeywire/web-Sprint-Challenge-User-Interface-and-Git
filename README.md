@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is a process where you use specific semantic based tags with pre-defined properties to structure and organize a web pages HTML. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    
+    1. block will start on a new line and take up the full page width, inline will not start on a new line - hence inline - and will only take up the width needed. 
+    2. You can define the width of a block element, you cannot do that with inline - you would need to change it's display property to inline-block.
 
 3. What are the 4 areas of the box model?
 
+    - Content 
+    - Padding
+    - Border 
+    - Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross axis 
+
 5. Explain why git is valuable to a team of developers.
+
+    - It allows you to easily share code with your team 
+    - It allows for multiple developers to work on the same code base simultaneously
+    - It stores and tracks changes with comments. This makes it easier to track down bugs, revert to a previous version, and identify who made which changes. 
+    - It serves as a form of backup - the repo is stored locally on all the devs machines as well as on a git service server. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,7 +67,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [x] Add your Team Lead as collaborator on Github.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -92,7 +109,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] Copy and paste your home page navigation and header into the about page
 * [x] Update the header image with the about page image
 * [x] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -104,4 +121,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [x] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
