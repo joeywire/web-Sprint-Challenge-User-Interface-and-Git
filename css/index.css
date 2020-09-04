@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* ----------------------- End of Reset ---------------------- */
 * {
     box-sizing: border-box;
 }
@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,8 +70,38 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-size: 1.6rem;
+}
+/* -------------------------- Header Styling ------------------- */
+header {
+    display: flex; 
+    align-items: flex-end;
+    margin: 4% 0;
 }
 
+.header_logo {
+    width: 25%;
+    flex-grow: 2;
+}
+
+header nav {
+    width: 74%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------- Transition Image Styling ----------------------- */
+.top_image {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+/* --------------------- Content Styling ---------------------------------*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +135,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* Coloring Boxes */
+.box.a {
+    background: teal;
+}
+
+.box.b {
+    background: gold;
+}
+
+.box.c {
+    background: cadetblue;
+}
+
+.box.d {
+    background: coral;
+}
+
+.box.e {
+    background: crimson;
+}
+
+.box.f {
+    background: forestgreen;
+}
+
+.box.g {
+    background: darkorchid;
+}
+
+.box.h {
+    background: hotpink;
+}
+
+.box.i {
+    background: indigo;
+}
+
+.box.j {
+    background: dodgerblue;
+}
+/* End Box Coloring  */
 
 .bottom-content {
     display: flex;
@@ -125,7 +197,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* ------------------------- Footer Styling --------------------- */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +215,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* -------------------- ABOUT PAGE ------------------------- */
+
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.about_blurb {
+    width: 95%; 
+    margin: 3% auto;
+}
+
+.about_content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+}
+
+.unit {
+    width: 47%;
+    padding: 3% 0;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+.unit img {
+    margin-bottom: 2%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.unit p{
+    line-height: 1.25;
+    margin-bottom: 3%;
+}
+
+.unit button {
+    padding: 2% 6%;
+    font-size: 1.6rem;
+    background: white;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.about_bottom_content {
+    width: 95%; 
+    margin: 2% auto 5%;
+
 }
