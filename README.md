@@ -57,7 +57,7 @@ Edit this document to include your answers after each question. Make sure to lea
     - It allows you to easily share code with your team 
     - It allows for multiple developers to work on the same code base simultaneously
     - It stores and tracks changes with comments. This makes it easier to track down bugs, revert to a previous version, and identify who made which changes. 
-    - It serves as a form of backup - the repo is stored locally on all the devs machines as well as on a git service server. 
+    - It serves as a form of backup - the repo is stored locally on all the devs machines as well as remotely on a git service server. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
